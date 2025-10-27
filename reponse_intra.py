@@ -32,12 +32,14 @@ def question_2():
 plt.figure(figsize=(4,4))
 plt.ylabel("Population")
 plt.xlabel("Heure")
-plt.tittle("Croissance bactérienne")
-plt.grid()
+plt.title("Croissance bactérienne")
+plt.plot([0,50000], ".r--")
+plt.ylim([0,160000])
+plt.xlim([0,10])
+plt.grid(True)
 plt.show()
-plt.plot([0,50000], ".r-")
-
-
+# je voudrais afficher des etoiles pour représenter la population de bactérie en croissance ".b*" mais je n'ai plus de temps
+# ma ligne rouge pointillé devrait être a l'horizontale mais je n.arrive pas a la mettre plus haut
 
 
 
